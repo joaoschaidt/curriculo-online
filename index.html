@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<!-- padrão de caracteres latino-->
+		<meta charset="UTF-8"/>
+		<!-- mobile first, permite trabalhar em todas as resoluções-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- bootstrap-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- css utilizado-->
+		<link rel="stylesheet" type="text/css" href="styles.css" media="screen"/>
+		<!-- fonts awesome-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!--fonte Open Sans-->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+		<!--jQuery-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!--javascript-->
+		<script src="effects.js" type="text/javascript"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<title>Currículo</title>
+
+	</head>
+
+	<body>
+		<div class="container-fluid">
+			<!--nova linha-->
+			<div class="row-fluid">
+			<!--coluna profile-->
+				<div class="col-sm-4">
+					<div class="card profile">
+
+						<!-- cor do background do avatar-->
+						<div class="background-avatar">
+							<!-- avatar, foto -->
+							<div class="avatar-frame avatar-shadow"></div>
+						</div>
+
+				  		<div class="container_profile">
+				  			<!-- informações pessoais-->
+				    		<h2><b>João Vitor Schaidt</b></h2> 
+				    		<br/>
+				    		<div class="dados_pessoais">
+					    		<p><i class="fa fa-briefcase fa-fw"></i>Estudante / Programador</p>
+					    		<p><i class="fa fa-home fa-fw"></i>Santa Catarina, Florianópolis</p>
+					    		<p><i class="fa fa-phone fa-fw"></i>(48) 98807-4561</p>
+					    		<p><i class="fa fa-envelope fa-fw"></i>joaoschaidt@hotmail.com</p>
+					    		<a href="https://github.com/joaoschaidt"><p><i class="fa fa-github fa-fw"></i>github.com/joaoschaidt</p></a>
+				    		</div>
+				    		<hr> 
+				    		<h3><i class="fa fa-globe fa-fw"></i><b>Idiomas</b></h3>
+				    		<br/>
+				    		<div class="progress">
+		  						<div class="progress-bar pt" role="progressbar" aria-valuenow="100"
+		 						aria-valuemin="0" aria-valuemax="100" style="width:0%">
+		 						Português
+								</div>
+							</div>
+							<br/>
+				    		<div class="progress">
+		  						<div class="progress-bar en" role="progressbar" aria-valuenow="57"
+		 						aria-valuemin="0" aria-valuemax="100" style="width:0%">
+		 						Inglês
+								</div>
+							</div>
+							<br/>
+				  		</div>
+					
+					</div>
+				</div>
+			<!--fim da coluna profile-->
+
+			<!--coluna informações-->
+				<div class="col-sm-8">
+					<div class="card info">
+						<div class="container_info">
+
+							<h3><i class="fa fa-user fa-fw"></i><b>Perfil e Objetivos</b></h3>
+								<div class="text">
+									<br/>
+									<p>&bull; Comecei há pouco tempo na área de programação e logo me apaixonei, desde então, venho diariamente praticando o uso de linguagens, lógicas de programação e mantendo as boas práticas da mesma para assim desenvolver códigos mais limpos, organizados e com melhor desempenho.</p> 
+									<p>&bull; Atualmente, meu foco se encontra na área de desenvolvimento mobile, onde uso de tecnologias como a IDE <b>Android Studio</b> para desenvolvimento android com java e o framework <b>Ionic</b> aliado à ferramenta <b>Firebase</b> do Google no qual facilitam e agilizam o desenvolvimento de aplicativos hibridos.</p>
+									<br/>
+								</div>	
+						</div>		
+					</div>
+
+					<div class="card info">
+						<div class="container_info">
+
+							<h3><i class="fa fa-graduation-cap fa-fw"></i><b>Formação Acadêmica</b></h3>
+								<div class="text">
+									<br/>
+									<p>&bull; Ensino Médio completo (Concluído em 2014).</p>
+									<hr/>
+									<p>&bull; Cursando 5º semestre em Análise e Desenvolvimento de Sistemas (previsão de conclusão em 2017)
+								 	na Instituição de ensino SENAC-Florianópolis.</p>
+								 	<p><a href="" class="card-link" data-toggle="modal" data-target="#myModal">Grade de disciplinas</a></p>
+									<br/>
+								</div>	
+						</div>		
+					</div>
+
+					<div class="card info">
+						<div class="container_info">
+
+							<h3><i class="fa fa-plus fa-fw"></i><b>Informações Complementares</b></h3>
+								<div class="text">
+									<br/>
+									<p>&bull; Estou à procura do meu primeiro emprego no mercado de trabalho para agregar experiência e conhecimento
+									 à minha carreira estando assim disposto a aprender novas tarefas. Tenho disponibilidade de horário para 
+									 trabalhar, aguardo contato para uma entrevista.</p>
+									<hr/>
+									<p>&bull; Projetos que criei ou colaborei podem ser encontrados no meu <a href="https://github.com/joaoschaidt">github</a>.</p>
+									<br/>
+								</div>
+						</div>
+					</div>		
+				</div>
+				<!--fim da coluna informações-->
+			</div>
+			<!--fim de linha-->
+
+			<!--nova linha-->
+			<div class="row-fluid">
+				<!--coluna de habilidades-->
+				<div class="col-sm-12">
+					<div class="card habilidades">
+						<div class="container_info">
+
+							<h3><i class="fa fa-code fa-fw"></i><b>Habilidades</b></h3>
+							<br/>
+							<div class="progress">
+			  					<div class="progress-bar java" role="progressbar" aria-valuenow="40"
+			 					aria-valuemin="0" aria-valuemax="100" style="width:0%">
+								Java
+								</div>
+							</div>
+							<br/>
+							<div class="progress">
+			  					<div class="progress-bar html" role="progressbar" aria-valuenow="60"
+			 					aria-valuemin="0" aria-valuemax="100" style="width:0%">
+								Html
+								</div>
+							</div>
+							<br/>
+							<div class="progress">
+			  					<div class="progress-bar css" role="progressbar" aria-valuenow="50"
+			 					aria-valuemin="0" aria-valuemax="100" style="width:0%">
+								Css
+								</div>
+							</div>
+							<br/>
+							<div class="progress">
+			  					<div class="progress-bar js" role="progressbar" aria-valuenow="30"
+			 					aria-valuemin="0" aria-valuemax="100" style="width:0%">
+								Javascript
+								</div>
+							</div>
+							<br/>
+							<div class="progress">
+			  					<div class="progress-bar android" role="progressbar" aria-valuenow="45"
+			 					aria-valuemin="0" aria-valuemax="100" style="width:0%">
+								Android
+								</div>
+							</div>
+							<br/>
+							<div class="progress">
+			  					<div class="progress-bar ps" role="progressbar" aria-valuenow="20"
+			 					aria-valuemin="0" aria-valuemax="100" style="width:0%">
+								Photoshop
+								</div>
+							</div>
+							<br/>
+							<div class="progress">
+			  					<div class="progress-bar mysql" role="progressbar" aria-valuenow="35"
+			 					aria-valuemin="0" aria-valuemax="100" style="width:0%">
+								MySQL
+								</div>
+							</div>
+							<br/>
+						</div>
+					</div>
+				</div>
+				<!--fim da coluna habilidades-->
+			</div>
+			<!--fim de linha-->
+		</div>
+		<!--fim container-fluid-->
+
+		<!--modal- grade de disciplinas-->
+		<div class="modal fade" id="myModal" role="dialog">
+			<div class="modal-dialog modal-lg">
+
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Grade de Disciplinas</h4>
+					</div>
+					<div class="container_modal">
+						<img src="imagens/gradeCurso.jpg"/>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!--fim do modal-->
+
+	</body>
+
+</html>

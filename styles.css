@@ -1,0 +1,141 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	background-color: #F2F2F2;
+}
+
+/* cor do background, imagem arredondada e sombra do avatar */
+.avatar-frame {
+    background-image: url('imagens/photo_perfil.png');
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 15px; bottom:0; left: 0; right:0;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.avatar-frame.avatar-shadow {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.avatar-frame:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.background-avatar {
+	background-color: #488aff;
+}
+
+h2 {
+	padding-top: 25px;
+	color: black;
+	text-align: center;
+}
+
+	/* ajustando cards e suas sombras */
+.card {
+	background-color: white;
+	border-top: thick solid black;
+  	margin: 15px;
+  	margin-left: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.dados_pessoais {
+	color: grey;
+}
+
+.container_profile{
+    padding: 2px 16px;
+}
+
+.container_info{
+	padding: 2px 16px;
+}
+
+/* modal grade de disciplinas */
+.modal {
+	height: 100%;
+	width: 100%;
+}
+
+.container_modal img{
+	max-width:100%;
+	max-height:100%;
+}
+
+i{
+	margin-right: 1%;
+}
+/* alinha texto e cor nas barras */
+.progress-bar.pt {
+	padding-left: 20px;
+	text-align: left;
+	background-color: #488aff;
+}
+
+.progress-bar.en {
+	padding-left: 20px;
+	text-align: left;
+	background-color: #488aff;
+}
+
+.progress-bar.ps {
+	padding-left: 20px;
+	text-align: left;
+	background-color: #2D3676;
+}
+
+.progress-bar.android {
+	padding-left: 20px;
+	text-align: left;
+	background-color: #68B545;
+}
+
+.progress-bar.mysql {
+	padding-left: 20px;
+	text-align: left;
+	background-color: #488aff;
+}
+
+.progress-bar.html {
+	padding-left: 20px;
+	text-align: left;
+	background-color: #E46425;
+}
+
+.progress-bar.css {
+	padding-left: 20px;
+	text-align: left;
+	background-color: #2177FE;
+}
+
+.progress-bar.java{
+	padding-left: 20px;
+	text-align: left;
+	background-color: #EB2D2F;
+}
+
+.progress-bar.js {
+	padding-left: 20px;
+	text-align: left;
+	background-color: #FDD946;
+}
+/* formatando texto */
+div.text{
+	padding-left: 12px;
+	padding-right: 12px;
+	text-align: justify;
+}
